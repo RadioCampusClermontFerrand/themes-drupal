@@ -2083,6 +2083,7 @@ height:327px;*/
 /** derniers podcasts **/
 /** derniers morceaux **/
 /**** bons plans *****/
+
 #block-block-3,
 #block-views-bons-plans-venir-block,
 #block-aggregator-feed-1 {
@@ -2633,26 +2634,105 @@ margin-top:40px;
     background-color: #FD5205;
 }
 
+
+
+.view-bons-plans-venir .views-row>div>h2 {
+    display:none;
+}
+
 .node-bon-plan .field-items h2 {
         float: left;
-        background: #FF2511;
+        background: #00AED5;
         color: #fff !important;
+        border-top: 30px solid #008DAC;
         font-weight: bold;
-        font-size: 30px !important;
-        line-height: 30px !important;
-        width: 200px;
-        height: 200px;
+        font-size: 20px !important;
+        line-height: 20px !important;
+        width: 120px;
+        height: 90px;
         clear: both;
         margin-top: 1em;
         padding: .3em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
 }
 
-.node-bon-plan .field-items p,
-.node-bon-plan .field-items ul {
+.node-bon-plan .field-name-body .field-item {
+    display: block;
+}
+.node-bon-plan .field-name-body p, .node-bon-plan .field-name-body ul {
+    width: 100%;
+}
+.node-bon-plan ul {
+    padding-left: 0 !important;
+    list-style-position: inside;
+}
+
+.field-name-field-colonne-gauche-haut, 
+.field-name-field-colonne-droite-haut {
+        width: 49%;
+        float: left;
+}
+.field-name-field-colonne-gauche-haut {
+        margin-right: 2%;
+}
+
+.node-bon-plan .field-name-field-colonne-gauche-haut .field-items p,
+.node-bon-plan .field-name-field-colonne-gauche-haut .field-items ul,
+.node-bon-plan .field-name-field-colonne-droite-haut .field-items p,
+.node-bon-plan .field-name-field-colonne-droite-haut .field-items ul{
     padding-top: 1em;
     float: right;
-    width: 600px;
-    margin-right: 100px;
+    width: 330px;
     text-align: justify;
     font-weight: 110%;
+}
+.field-name-field-colonne-gauche-bas {
+    clear: both;
+}
+
+.field-name-field-colonne-gauche-bas,
+.field-name-field-colonne-milieu-bas,
+.field-name-field-colonne-droite-bas {
+    float: left;
+    width: 32%;
+    margin-left: 1%;
+}
+.field-name-field-colonne-gauche-bas p,
+.field-name-field-colonne-milieu-bas p, 
+.field-name-field-colonne-droite-bas p,
+.field-name-field-colonne-gauche-bas ul,
+.field-name-field-colonne-milieu-bas ul, 
+.field-name-field-colonne-droite-bas ul {
+    clear: left;
+    text-align: justify;
+    width: 94%;
+    margin: 3%;
+}
+.field-name-field-colonne-gauche-bas .field-items h2,
+.field-name-field-colonne-milieu-bas .field-items h2, 
+.field-name-field-colonne-droite-bas .field-items h2 {
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+    margin-bottom: 1em !important;
+    width: 150px;
+    height: 110px;
+    border-top-width: 40px;
+
+}
+
+.field-name-field-colonne-gauche-bas .field-items h2 {
+    background: #E52F93;
+    border-top: 30px solid #BD277A;
+}
+.field-name-field-colonne-milieu-bas .field-items h2 {
+    background: #E53138;
+    border-top: 30px solid #C0292F;
+}
+.field-name-field-colonne-droite-bas .field-items h2 {
+    background: #E5642D;
+    border-top: 30px solid #D55D29;
 }
