@@ -2720,9 +2720,9 @@ margin-top:40px;
 .field-name-field-colonne-gauche-bas,
 .field-name-field-colonne-milieu-bas,
 .field-name-field-colonne-droite-bas {
-    float: left;
-    width: 32%;
-    margin-left: 1%;
+    clear: both;
+    width: 100%;
+    margin-top: 1em;
 }
 .field-name-field-colonne-gauche-bas p,
 .field-name-field-colonne-milieu-bas p, 
@@ -2730,10 +2730,7 @@ margin-top:40px;
 .field-name-field-colonne-gauche-bas ul,
 .field-name-field-colonne-milieu-bas ul, 
 .field-name-field-colonne-droite-bas ul {
-    clear: left;
     text-align: justify;
-    width: 94%;
-    margin: 3%;
 }
 .field-name-field-colonne-gauche-bas .field-items h2,
 .field-name-field-colonne-milieu-bas .field-items h2, 
@@ -2745,12 +2742,12 @@ margin-top:40px;
     width: 150px;
     height: 110px;
     border-top-width: 40px;
-
+    margin-right: 2em !important;
 }
 
 .field-name-field-colonne-gauche-bas .field-items h2 {
-    background: #E52F93;
-    border-top: 30px solid #BD277A;
+    background: #2dcb32;
+    border-top: 30px solid #28b32c;
 }
 .field-name-field-colonne-milieu-bas .field-items h2 {
     background: #E53138;
