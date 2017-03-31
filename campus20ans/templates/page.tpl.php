@@ -352,9 +352,9 @@
           	<div style="width:60px;padding-right:10px;float:left;"><img src="/themes/campus20ans/images/legende-BIM.png" alt="BIM" width="25px"></div>
           	<span>bimensuelles</span>
           	</div>
-          	<!-- div style="width:270px;padding-bottom:0px;text-align:center;">
-          	<a href="/themes/campus20ans/images/grille-fev-juin-2015.pdf" target="_blank" alt="lien grille">télécharger la grille en pdf</a> (février-juin 2015)
-          	</div -->
+          	<div style="width:270px;padding-bottom:0px;text-align:center;">
+          	<!-- a href="/themes/campus20ans/images/grille-fev-2016.pdf" target="_blank" alt="lien grille">télécharger la grille en pdf</a> (février-juin 2016) -->
+          	</div>
 	  </div>
           </div>
 
