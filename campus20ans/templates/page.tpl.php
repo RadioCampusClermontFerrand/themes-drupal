@@ -523,7 +523,7 @@
         </div>
         <ul>
         <?php
-                $styles = array("metal" => "Métal", "rock" => "Rock", "chanson" => "Chanson", "hip-hop" => "Hip Hop", "rdw" => "Reggae Dub World", "electro" => "Electro", "jazz" => "Jazz", "pop" => "Pop");
+                $styles = array("rock" => "Rock", "chanson" => "Chanson", "hip-hop" => "Hip Hop", "rdw" => "Reggae Dub World", "electro" => "Electro", "jazz" => "Jazz", "pop" => "Pop");
 
                 foreach($styles as $nb => $style) {
                     echo '<li class="style-'.$nb.'"><a href="http://www.campus-clermont.net/onair/100p/?style='.$style.'"><span class="circle-style">100%</span> '.$style.'</a></li>';
